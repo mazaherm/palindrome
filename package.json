@@ -1,0 +1,24 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazaherm/palindrome.git"
+  },
+  "author": "Mazaher Muraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazaherm/palindrome/issues"
+  },
+  "homepage": "https://github.com/mazaherm/palindrome#readme"
+}
