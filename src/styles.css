@@ -17,7 +17,8 @@ footer {
     footer .signature p {
       margin: 10px; }
 
-.text-display input {
+#input-text,
+#output-display {
   font-size: 35px;
   width: 100%; }
 
