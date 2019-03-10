@@ -23,4 +23,5 @@ footer {
 #input-text,
 #output-display {
   font-size: 35px;
-  margin: 10px auto; }
+  margin: 10px auto;
+  padding: 10px; }
