@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+
+    .signature {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            margin: 10px;
+        }
+    }
+}
