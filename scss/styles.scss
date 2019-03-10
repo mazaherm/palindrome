@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -29,4 +32,6 @@ footer {
 #input-text,
 #output-display {
     font-size: 35px;
+    margin: 10px auto;
+    padding: 10px;
 }
