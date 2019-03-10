@@ -16,3 +16,11 @@ footer {
     align-items: center; }
     footer .signature p {
       margin: 10px; }
+
+.text-display input {
+  font-size: 35px;
+  width: 100%; }
+
+.reverse-display {
+  font-size: 35px;
+  width: 100%; }
