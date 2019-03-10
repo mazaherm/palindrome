@@ -17,10 +17,11 @@ footer {
   bottom: 0; }
   footer .signature {
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center; }
     footer .signature p {
-      margin: 10px; }
+      margin: 0; }
 
 #input-text,
 #output-display {
