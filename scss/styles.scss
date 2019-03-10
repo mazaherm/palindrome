@@ -5,6 +5,10 @@ body {
     align-items: center;
 }
 
+header {
+    text-align: center;
+}
+
 footer {
     text-align: center;
     width: 100%;
@@ -25,10 +29,4 @@ footer {
 #input-text,
 #output-display {
     font-size: 35px;
-    width: 100%;
-}
-
-.reverse-display {
-    font-size: 35px;
-    width: 100%;
 }
