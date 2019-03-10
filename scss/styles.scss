@@ -22,11 +22,10 @@ footer {
     }
 }
 
-.text-display {
-    input {
-        font-size: 35px;
-        width: 100%;
-    }
+#input-text,
+#output-display {
+    font-size: 35px;
+    width: 100%;
 }
 
 .reverse-display {
