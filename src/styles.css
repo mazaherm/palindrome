@@ -28,3 +28,10 @@ footer {
   font-size: 35px;
   margin: 10px auto;
   padding: 10px; }
+
+.social {
+  margin: 10px auto; }
+
+.social-icons {
+  height: 35px;
+  width: 35px; }
