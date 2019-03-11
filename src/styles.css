@@ -17,13 +17,21 @@ footer {
   bottom: 0; }
   footer .signature {
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center; }
     footer .signature p {
-      margin: 10px; }
+      margin: 0; }
 
 #input-text,
 #output-display {
   font-size: 35px;
   margin: 10px auto;
   padding: 10px; }
+
+.social {
+  margin: 10px auto; }
+
+.social-icons {
+  height: 35px;
+  width: 35px; }
