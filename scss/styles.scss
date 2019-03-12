@@ -45,3 +45,13 @@ footer {
     height: 35px;
     width: 35px;
 }
+
+.link-to-desc {
+    a {
+        color: #487eb0;
+    &:active,
+    &:visited {
+        color: #487eb0;
+    }
+    }
+}
