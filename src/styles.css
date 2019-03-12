@@ -35,3 +35,8 @@ footer {
 .social-icons {
   height: 35px;
   width: 35px; }
+
+.link-to-desc a {
+  color: #487eb0; }
+  .link-to-desc a:active, .link-to-desc a:visited {
+    color: #487eb0; }
