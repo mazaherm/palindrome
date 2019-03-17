@@ -4,7 +4,10 @@ function getDisplay() {
 
     div.innerHTML = input.value.split('').reverse().join('').replace(/[\W_]+/g,"")
 
-    if (div.innerHTML.toLowerCase().replace(/[\W_]+/g,"") === input.value.toLowerCase().replace(/[\W_]+/g,"")) {
+    let inputText = div.innerHTML.toLowerCase().replace(/[\W_]+/g,"")
+    let displayText = input.value.toLowerCase().replace(/[\W_]+/g,"")
+
+    if (inputText === displayText) {
         document.getElementById("output-display").style.color = 'green'
     } else {
         document.getElementById("output-display").style.color = 'red'
