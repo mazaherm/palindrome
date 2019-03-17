@@ -4,7 +4,7 @@ function getDisplay() {
 
     div.innerHTML = input.value.split('').reverse().join('')
 
-    if (div.innerHTML === input.value) {
+    if (div.innerHTML.toLowerCase() === input.value.toLowerCase()) {
         document.getElementById("output-display").style.color = 'green'
     } else {
         document.getElementById("output-display").style.color = 'red'
